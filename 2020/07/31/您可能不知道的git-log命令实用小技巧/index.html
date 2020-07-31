@@ -29,15 +29,15 @@
 <meta property="og:site_name" content="风间小筑">
 <meta property="og:description" content="本文翻译自Useful tricks you might not know about git log。 如果您使用Git一段时间，那么您应该接触过git log。 众所周知，git log是一个简单的命令，可以帮助我们查看变更或项目历史记录。 即使如此简单，它仍然是一个非常强大的工具，它带有许多参数，可以帮助我们查看项目变更及其结构。 我们将在本文中看到一些最常用的参数。 git log —on">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-h51e2823.jpeg?alt=media&token=26c84a03-5d9e-4632-9ff0-14aeb129f76d">
-<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-mg3828j1.jpeg?alt=media&token=a17f1b24-b1af-4749-b4fc-ace788c40ecf">
-<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-bd6628wy.jpeg?alt=media&token=e570174c-cc75-40d3-8921-36fa9b172d7b">
+<meta property="og:image" content="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0b74d8c1-7ce5-44cd-bb49-ed861a472abb_813x230.png">
+<meta property="og:image" content="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ad184f2a-0c7f-4d61-952a-81414329fd52_620x546.png">
+<meta property="og:image" content="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/839563ca-4ef6-4de9-a415-f0f34e756ce9_642x524.png">
 <meta property="article:published_time" content="2020-07-31T06:59:23.000Z">
-<meta property="article:modified_time" content="2020-07-31T08:53:35.458Z">
+<meta property="article:modified_time" content="2020-07-31T09:11:29.694Z">
 <meta property="article:author" content="Lawrence Shen">
 <meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-h51e2823.jpeg?alt=media&token=26c84a03-5d9e-4632-9ff0-14aeb129f76d">
+<meta name="twitter:image" content="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0b74d8c1-7ce5-44cd-bb49-ed861a472abb_813x230.png">
 
 <link rel="canonical" href="http://fjcanyue.github.io/2020/07/31/%E6%82%A8%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84git-log%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/">
 
@@ -183,7 +183,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-07-31 14:59:23 / Modified: 16:53:35" itemprop="dateCreated datePublished" datetime="2020-07-31T14:59:23+08:00">2020-07-31</time>
+              <time title="Created: 2020-07-31 14:59:23 / Modified: 17:11:29" itemprop="dateCreated datePublished" datetime="2020-07-31T14:59:23+08:00">2020-07-31</time>
             </span>
 
           
@@ -217,7 +217,7 @@
 <h1 id="git-log-—oneline"><a href="#git-log-—oneline" class="headerlink" title="git log —oneline"></a>git log —oneline</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --oneline</span><br></pre></td></tr></table></figure>
 
 <p>此命令可帮助您以更简洁的方式查看提交。 它会将每次提交压缩到一行，并且只有很少的信息，例如较短的提交哈希值和提交消息。</p>
-<p><img data-src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-h51e2823.jpeg?alt=media&token=26c84a03-5d9e-4632-9ff0-14aeb129f76d" alt=""></p>
+<p><img data-src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0b74d8c1-7ce5-44cd-bb49-ed861a472abb_813x230.png" alt=""></p>
 <a id="more"></a>
 
 <h1 id="按时间段过滤提交"><a href="#按时间段过滤提交" class="headerlink" title="按时间段过滤提交"></a>按时间段过滤提交</h1><p>这些命令将按给定的时间间隔过滤提交。 例如，-after参数将仅过滤在给定时间段之后的提交，而-before参数将仅过滤在给定时间段之前的提交。</p>
@@ -233,7 +233,7 @@
 <h1 id="git日志与差异更改"><a href="#git日志与差异更改" class="headerlink" title="git日志与差异更改"></a>git日志与差异更改</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log -p</span><br></pre></td></tr></table></figure>
 
 <p>该命令将显示变更差异的日志。 这样您就可以知道每次提交中所做的更改。</p>
-<p><img data-src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-mg3828j1.jpeg?alt=media&token=a17f1b24-b1af-4749-b4fc-ace788c40ecf" alt=""></p>
+<p><img data-src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ad184f2a-0c7f-4d61-952a-81414329fd52_620x546.png" alt=""></p>
 <p>在上图中，您可以看到git的变更差异。</p>
 <h1 id="按作者过滤提交"><a href="#按作者过滤提交" class="headerlink" title="按作者过滤提交"></a>按作者过滤提交</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --author="Srebalaji"</span><br></pre></td></tr></table></figure>
 
@@ -283,7 +283,7 @@
 <p>例如，</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --pretty=format:"%Cred%an - %ar%n %Cblue %h -%Cgreen %s %n"</span><br></pre></td></tr></table></figure>
 
-<p><img data-src="https://firebasestorage.googleapis.com/v0/b/hackernoon-app.appspot.com/o/images%2FP7ExWFeHtKShz94IHmOtw90IUG23-bd6628wy.jpeg?alt=media&token=e570174c-cc75-40d3-8921-36fa9b172d7b" alt=""></p>
+<p><img data-src="https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/839563ca-4ef6-4de9-a415-f0f34e756ce9_642x524.png" alt=""></p>
 <p>您可以在上图中看到提交日志是自定义格式的。 这非常简单，如果您只想查看日志的特定详细信息，它会派上用场。</p>
 <p>今天就这样：)</p>
 <p>如有任何疑问，您可以回复此电子邮件或发表评论。</p>
