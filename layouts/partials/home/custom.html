@@ -1,0 +1,25 @@
+<article
+  class="{{ if not .Site.Params.homepage.showRecent }}
+    h-full
+  {{ end }} flex flex-col items-center justify-center text-center"
+  style="background-image: url('images/wind-turbines.png'); 
+         background-size: cover; 
+         background-position: center; 
+         background-color: aliceblue;
+         background-position: bottom;
+         position: relative;
+         padding: 1px 0;"
+>
+  <!-- Add a semi-transparent overlay to ensure text remains readable -->
+  <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+  
+  <!-- Ensure content is positioned above the background -->
+  <div class="relative z-10" style="color: white;">
+    {{ partial "profile.html" }}
+    <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+  </div>
+</article>
+
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>
