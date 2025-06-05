@@ -24,7 +24,11 @@
                 src="{{ (.Fill "160x120 smart").RelPermalink }}" width="160" height="120"
               {{ end }}
             {{ else }}
-              class="w-24 rounded-md sm:w-40" src="{{ (print "/images/" .Params.thumbnail) | relURL }}" width="160" height="120"
+              {{ if hasPrefix .Params.thumbnail "http" }}
+                class="w-24 rounded-md sm:w-40" src="{{ .Params.thumbnail }}" width="160" height="120"
+              {{ else }}
+                class="w-24 rounded-md sm:w-40" src="{{ (print "/images/" .Params.thumbnail) | relURL }}" width="160" height="120"
+              {{ end }}
             {{ end }}
             {{ if $.Site.Params.enableImageLazyLoading | default true }}
               loading="lazy"
