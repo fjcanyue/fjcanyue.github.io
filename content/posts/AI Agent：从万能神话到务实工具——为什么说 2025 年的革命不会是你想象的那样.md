@@ -2,7 +2,7 @@
 title: AI Agent：从万能神话到务实工具——为什么说 2025 年的革命不会是你想象的那样
 date: 2025-07-24 16:59:23
 tags: [AI, Agent, AI Agent, LLM, Reliability, Cost, Tool Engineering, Human-in-the-loop, AI Hype]
-thumbnail: "https://tse3-mm.cn.bing.net/th/id/OIP-C.lxE89MTJvRg9MRiZ3WR55gHaEK?rs=1&pid=ImgDetMain"
+thumbnail: "https://utkarshkanwat.com/writing/betting-against-agents/error_compounding_graph.svg"
 ---
 
 2025年，几乎所有科技媒体都在预言，这将是“AI Agent之年”。“自主AI将变革工作”、“代理是下一个前沿”……这些标题充斥着我们的信息流，描绘了一个由无所不能的AI助手主导的未来。然而，当我们从云端的炒作回到满是泥泞的现实，尤其是听取那些日夜奋战在一线的AI工程师的声音时，一幅截然不同的画面浮现出来。
