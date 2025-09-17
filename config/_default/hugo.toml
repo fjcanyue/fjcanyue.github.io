@@ -4,6 +4,7 @@
 
 baseURL = "https://fjcanyue.github.io/"
 defaultContentLanguage = "zh-Hans"
+timeZone= "Asia/Shanghai"
 
 enableRobotsTXT = true
 summaryLength = 2
