@@ -1,7 +1,7 @@
 ---
 title: "AI Agent 操作生命周期：从原型到生产的演进 (2025版核心概念)"
 date: 2025-09-09 16:59:23
-tags: [AI, Agent, AI Agent, Agent Lifecycle, AgentOps, LLM, Architecture, ChatOps]
+tags: ["ai", "agent", "agent-lifecycle", "agentops", "llm", "architecture", "chatops"]
 description: "AI Agent 的生命周期远不止 Perceive-Plan-Act。本文深入探讨了一个生产级的、包含人类在环的五阶段操作生命周期模型，揭示了从原型 Agent 演进到可靠的企业级应用的必备架构和核心概念。"
 thumbnail: "https://cdn.thenewstack.io/media/2025/09/886809d3-agents12-1024x576.png"
 ---

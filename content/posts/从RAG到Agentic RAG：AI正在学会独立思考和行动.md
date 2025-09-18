@@ -1,7 +1,7 @@
 ---
 title: 从RAG到Agentic RAG：AI正在学会独立思考和行动
 date: 2025-06-26 16:59:23
-tags: ["ai", "rag", "agent", "llm", "智能体", "检索增强", "大语言模型", "企业应用", "知识库", "自动化", "cot", "react", "人工智能"]
+tags: [ai, rag, agent, llm, architecture]
 thumbnail: "https://tse3-mm.cn.bing.net/th/id/OIP-C.lxE89MTJvRg9MRiZ3WR55gHaEK?rs=1&pid=ImgDetMain"
 ---
 

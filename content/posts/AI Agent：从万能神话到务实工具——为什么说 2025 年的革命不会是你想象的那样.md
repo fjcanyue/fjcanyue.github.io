@@ -1,7 +1,7 @@
 ---
 title: AI Agent：从万能神话到务实工具——为什么说 2025 年的革命不会是你想象的那样
 date: 2025-07-24 16:59:23
-tags: [AI, Agent, AI Agent, LLM, Reliability, Cost, Tool Engineering, Human-in-the-loop, AI Hype]
+tags: [ai, agent, llm, architecture, best-practices]
 thumbnail: "https://utkarshkanwat.com/writing/betting-against-agents/error_compounding_graph.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Cursor 最佳实践指南：高效利用 AI 辅助编程
 date: 2025-04-03 16:59:23
-tags: ["ai", "cursor", "best-practices", "ai-tool", "coding", "development"]
+tags: ["ai", "cursor", "best-practices", "development"]
 thumbnail: "thumb-cursor-best-practices.jpg"
 ---
 

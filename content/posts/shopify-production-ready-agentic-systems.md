@@ -3,7 +3,7 @@ title: "从Shopify的实践中学到：如何构建生产级的AI Agent系统"
 date: 2025-09-16 10:59:23
 description: "深入解析 Shopify 在构建其 AI 助手 Sidekick 过程中总结的宝贵经验，探讨生产级 Agent 系统所需的架构设计、评估挑战与解决方案。"
 categories: ["tech"]
-tags: ["AI", "Agentic Systems", "Shopify", "LLM", "Architecture"]
+tags: ["ai", "agentic-systems", "shopify", "llm", "architecture"]
 thumbnail: https://cdn.shopify.com/s/files/1/0779/4361/articles/image_1_22dc70db-d4c8-4175-8c9b-3638274a2e6b.png?v=1756239806&originalWidth=1848&originalHeight=782&width=1800
 ---
 
